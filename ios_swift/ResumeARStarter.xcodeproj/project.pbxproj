@@ -35,8 +35,8 @@
 		B4BF23661FA2745D002906DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BF23641FA2745D002906DD /* Main.storyboard */; };
 		B4BF23681FA2745D002906DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4BF23671FA2745D002906DD /* Assets.xcassets */; };
 		B4BF236B1FA2745D002906DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BF23691FA2745D002906DD /* LaunchScreen.storyboard */; };
-		B4BF23761FA2745D002906DD /* ResumeARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BF23751FA2745D002906DD /* ResumeARTests.swift */; };
-		B4BF23811FA2745D002906DD /* ResumeARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BF23801FA2745D002906DD /* ResumeARUITests.swift */; };
+		B4BF23761FA2745D002906DD /* ResumeARStarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BF23751FA2745D002906DD /* ResumeARStarterTests.swift */; };
+		B4BF23811FA2745D002906DD /* ResumeARStarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BF23801FA2745D002906DD /* ResumeARStarterUITests.swift */; };
 		BCFAE1E895D8576182872115 /* Pods_ResumeARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E03336E2D20E30384E39305 /* Pods_ResumeARTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,7 +97,7 @@
 		B479E7652068854C00786B47 /* scott_negative.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = scott_negative.zip; sourceTree = "<group>"; };
 		B4B2E7951FCDDF4E006DDB9D /* SCNNode+Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+Text.swift"; sourceTree = "<group>"; };
 		B4BE3DAC1FDB185900268324 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
-		B4BF235B1FA2745D002906DD /* ResumeAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResumeAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BF235B1FA2745D002906DD /* ResumeARStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResumeARStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4BF235E1FA2745D002906DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4BF23601FA2745D002906DD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		B4BF23621FA2745D002906DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,11 +105,11 @@
 		B4BF23671FA2745D002906DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4BF236A1FA2745D002906DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4BF236C1FA2745D002906DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4BF23711FA2745D002906DD /* ResumeARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumeARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4BF23751FA2745D002906DD /* ResumeARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeARTests.swift; sourceTree = "<group>"; };
+		B4BF23711FA2745D002906DD /* ResumeARStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumeARStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BF23751FA2745D002906DD /* ResumeARStarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeARStarterTests.swift; sourceTree = "<group>"; };
 		B4BF23771FA2745D002906DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4BF237C1FA2745D002906DD /* ResumeARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumeARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4BF23801FA2745D002906DD /* ResumeARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeARUITests.swift; sourceTree = "<group>"; };
+		B4BF237C1FA2745D002906DD /* ResumeARStarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumeARStarterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4BF23801FA2745D002906DD /* ResumeARStarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeARStarterUITests.swift; sourceTree = "<group>"; };
 		B4BF23821FA2745D002906DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C29CFFAD58110276DDA6E827 /* Pods-ResumeARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResumeARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResumeARTests/Pods-ResumeARTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D14F62B22DF90272AD6973C2 /* Pods-ResumeARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResumeARUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResumeARUITests/Pods-ResumeARUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,9 +174,9 @@
 			children = (
 				B479E7612064643600786B47 /* Podfile */,
 				B424BCF9201F92DA00B18120 /* Cartfile */,
-				B4BF235D1FA2745D002906DD /* ResumeAR */,
-				B4BF23741FA2745D002906DD /* ResumeARTests */,
-				B4BF237F1FA2745D002906DD /* ResumeARUITests */,
+				B4BF235D1FA2745D002906DD /* ResumeARStarter */,
+				B4BF23741FA2745D002906DD /* ResumeARStarterTests */,
+				B4BF237F1FA2745D002906DD /* ResumeARStarterUITests */,
 				B4BF235C1FA2745D002906DD /* Products */,
 				202D954606B6B43535D66211 /* Pods */,
 				4181389323BBC2B8BAEDDAC8 /* Frameworks */,
@@ -186,14 +186,14 @@
 		B4BF235C1FA2745D002906DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4BF235B1FA2745D002906DD /* ResumeAR.app */,
-				B4BF23711FA2745D002906DD /* ResumeARTests.xctest */,
-				B4BF237C1FA2745D002906DD /* ResumeARUITests.xctest */,
+				B4BF235B1FA2745D002906DD /* ResumeARStarter.app */,
+				B4BF23711FA2745D002906DD /* ResumeARStarterTests.xctest */,
+				B4BF237C1FA2745D002906DD /* ResumeARStarterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B4BF235D1FA2745D002906DD /* ResumeAR */ = {
+		B4BF235D1FA2745D002906DD /* ResumeARStarter */ = {
 			isa = PBXGroup;
 			children = (
 				B479E7642068854C00786B47 /* sanjeev_negative.zip */,
@@ -220,33 +220,33 @@
 				B430E1221FE8448A00058C99 /* CloudantRESTCall.swift */,
 				B479E75D2064616800786B47 /* Constant.swift */,
 			);
-			path = ResumeAR;
+			path = ResumeARStarter;
 			sourceTree = "<group>";
 		};
-		B4BF23741FA2745D002906DD /* ResumeARTests */ = {
+		B4BF23741FA2745D002906DD /* ResumeARStarterTests */ = {
 			isa = PBXGroup;
 			children = (
-				B4BF23751FA2745D002906DD /* ResumeARTests.swift */,
+				B4BF23751FA2745D002906DD /* ResumeARStarterTests.swift */,
 				B4BF23771FA2745D002906DD /* Info.plist */,
 			);
-			path = ResumeARTests;
+			path = ResumeARStarterTests;
 			sourceTree = "<group>";
 		};
-		B4BF237F1FA2745D002906DD /* ResumeARUITests */ = {
+		B4BF237F1FA2745D002906DD /* ResumeARStarterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B4BF23801FA2745D002906DD /* ResumeARUITests.swift */,
+				B4BF23801FA2745D002906DD /* ResumeARStarterUITests.swift */,
 				B4BF23821FA2745D002906DD /* Info.plist */,
 			);
-			path = ResumeARUITests;
+			path = ResumeARStarterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4BF235A1FA2745D002906DD /* ResumeAR */ = {
+		B4BF235A1FA2745D002906DD /* ResumeARStarter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4BF23851FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeAR" */;
+			buildConfigurationList = B4BF23851FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeARStarter" */;
 			buildPhases = (
 				E9FA0663D44743E410B2D1BC /* [CP] Check Pods Manifest.lock */,
 				B4BF23571FA2745D002906DD /* Sources */,
@@ -260,14 +260,14 @@
 			);
 			dependencies = (
 			);
-			name = ResumeAR;
+			name = ResumeARStarter;
 			productName = ResumeAR;
-			productReference = B4BF235B1FA2745D002906DD /* ResumeAR.app */;
+			productReference = B4BF235B1FA2745D002906DD /* ResumeARStarter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4BF23701FA2745D002906DD /* ResumeARTests */ = {
+		B4BF23701FA2745D002906DD /* ResumeARStarterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4BF23881FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeARTests" */;
+			buildConfigurationList = B4BF23881FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeARStarterTests" */;
 			buildPhases = (
 				45ABD60E5144AE12A1962748 /* [CP] Check Pods Manifest.lock */,
 				B4BF236D1FA2745D002906DD /* Sources */,
@@ -281,14 +281,14 @@
 			dependencies = (
 				B4BF23731FA2745D002906DD /* PBXTargetDependency */,
 			);
-			name = ResumeARTests;
+			name = ResumeARStarterTests;
 			productName = ResumeARTests;
-			productReference = B4BF23711FA2745D002906DD /* ResumeARTests.xctest */;
+			productReference = B4BF23711FA2745D002906DD /* ResumeARStarterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B4BF237B1FA2745D002906DD /* ResumeARUITests */ = {
+		B4BF237B1FA2745D002906DD /* ResumeARStarterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4BF238B1FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeARUITests" */;
+			buildConfigurationList = B4BF238B1FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeARStarterUITests" */;
 			buildPhases = (
 				0550DFF84BC76D707383520A /* [CP] Check Pods Manifest.lock */,
 				B4BF23781FA2745D002906DD /* Sources */,
@@ -302,9 +302,9 @@
 			dependencies = (
 				B4BF237E1FA2745D002906DD /* PBXTargetDependency */,
 			);
-			name = ResumeARUITests;
+			name = ResumeARStarterUITests;
 			productName = ResumeARUITests;
-			productReference = B4BF237C1FA2745D002906DD /* ResumeARUITests.xctest */;
+			productReference = B4BF237C1FA2745D002906DD /* ResumeARStarterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -333,7 +333,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B4BF23561FA2745C002906DD /* Build configuration list for PBXProject "ResumeAR" */;
+			buildConfigurationList = B4BF23561FA2745C002906DD /* Build configuration list for PBXProject "ResumeARStarter" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -346,9 +346,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4BF235A1FA2745D002906DD /* ResumeAR */,
-				B4BF23701FA2745D002906DD /* ResumeARTests */,
-				B4BF237B1FA2745D002906DD /* ResumeARUITests */,
+				B4BF235A1FA2745D002906DD /* ResumeARStarter */,
+				B4BF23701FA2745D002906DD /* ResumeARStarterTests */,
+				B4BF237B1FA2745D002906DD /* ResumeARStarterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -571,7 +571,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4BF23761FA2745D002906DD /* ResumeARTests.swift in Sources */,
+				B4BF23761FA2745D002906DD /* ResumeARStarterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,7 +579,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4BF23811FA2745D002906DD /* ResumeARUITests.swift in Sources */,
+				B4BF23811FA2745D002906DD /* ResumeARStarterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,12 +588,12 @@
 /* Begin PBXTargetDependency section */
 		B4BF23731FA2745D002906DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4BF235A1FA2745D002906DD /* ResumeAR */;
+			target = B4BF235A1FA2745D002906DD /* ResumeARStarter */;
 			targetProxy = B4BF23721FA2745D002906DD /* PBXContainerItemProxy */;
 		};
 		B4BF237E1FA2745D002906DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4BF235A1FA2745D002906DD /* ResumeAR */;
+			target = B4BF235A1FA2745D002906DD /* ResumeARStarter */;
 			targetProxy = B4BF237D1FA2745D002906DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -783,7 +783,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResumeAR.app/ResumeAR";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResumeARStarter.app/ResumeARStarter";
 			};
 			name = Debug;
 		};
@@ -801,7 +801,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResumeAR.app/ResumeAR";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResumeARStarter.app/ResumeARStarter";
 			};
 			name = Release;
 		};
@@ -842,7 +842,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4BF23561FA2745C002906DD /* Build configuration list for PBXProject "ResumeAR" */ = {
+		B4BF23561FA2745C002906DD /* Build configuration list for PBXProject "ResumeARStarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4BF23831FA2745D002906DD /* Debug */,
@@ -851,7 +851,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4BF23851FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeAR" */ = {
+		B4BF23851FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeARStarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4BF23861FA2745D002906DD /* Debug */,
@@ -860,7 +860,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4BF23881FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeARTests" */ = {
+		B4BF23881FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeARStarterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4BF23891FA2745D002906DD /* Debug */,
@@ -869,7 +869,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4BF238B1FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeARUITests" */ = {
+		B4BF238B1FA2745D002906DD /* Build configuration list for PBXNativeTarget "ResumeARStarterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4BF238C1FA2745D002906DD /* Debug */,
