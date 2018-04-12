@@ -1,5 +1,5 @@
 {
-  "appIconURL": "blueprint/appIcon.svg",
+  "appIconURL": "blueprint/preview1.png",
   "description": "Use Watson Visual Recognition and Core ML to your iOS APP to create Augmented Reality based rèsumè",
   "name": "Augmented Reality based rèsumè using Watson Visual Recognition and Core ML",
   "previewURLs": [
@@ -9,13 +9,13 @@
       "blueprint/preview4.png"
   ],
   "type" : "MOBILE",
-  "thumbnailURL": "blueprint/appIcon.svg",
+  "thumbnailURL": "blueprint/preview1.png",
   "email": "sanjeev.ghimire@ibm.com",
   "author": "Sanjeev Ghimire",
-  "requiredCapabilities": ["visualrecognition","cloudant"],
+  "requiredCapabilities": ["visualRecognition","cloudant"],
   "servicePlans": {
-      "visualrecognition": "free",
+      "visualRecognition": "free",
       "cloudant": "free"
   },
-  "tags": ["appledevelopment","devex"]
+  "tags": ["devex"]
 }
