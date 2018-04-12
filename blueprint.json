@@ -12,9 +12,9 @@
   "thumbnailURL": "blueprint/preview1.png",
   "email": "sanjeev.ghimire@ibm.com",
   "author": "Sanjeev Ghimire",
-  "requiredCapabilities": ["visualrecognition","cloudant"],
+  "requiredCapabilities": ["visualRecognition","cloudant"],
   "servicePlans": {
-      "visualrecognition": "free",
+      "visualRecognition": "free",
       "cloudant": "free"
   },
   "tags": ["appledevelopment","devex"]
