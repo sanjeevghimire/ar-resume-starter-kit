@@ -1,19 +1,13 @@
-//
-//  CloudantRESTCall.swift
-//  ResumeAR
-//
-//  Created by Sanjeev Ghimire on 12/18/17.
-//  Copyright © 2017 Sanjeev Ghimire. All rights reserved.
-//
-
 import Foundation
 import SwiftyJSON
 
-
 class CloudantRESTCall {
-
+    
+    public static let FIND_DOCUMENTS = "/_find"
+    public static let CLOUDANT_DB_URL = Credentials.CLOUDANT_URL + "/" + Credentials.CLOUDANT_DATABASE
+    
     func getResumeInfo(classificationId: String, completionHandler: @escaping (_ result: JSON) -> Void){
-        let urlString = Credentials.CLOUDANT_URL.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)!
+        let urlString = (CloudantRESTCall.CLOUDANT_DB_URL + CloudantRESTCall.FIND_DOCUMENTS).addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)!
         guard let endpointURL: URL = URL(string: urlString) else {
             print("Error: cannot create URL")
             return
@@ -37,7 +31,7 @@ class CloudantRESTCall {
         let session = URLSession.shared
         
         let task = session.dataTask(with: request) { (data, response, error) in
-          
+            
             guard let httpResponse = response as? HTTPURLResponse else {
                 print("Error while getting response")
                 return
@@ -63,8 +57,8 @@ class CloudantRESTCall {
             }
             let profileJSON : JSON
             do{
-                 profileJSON = try JSON(data: responseData)
-                 print("Profile JSON: ",profileJSON)
+                profileJSON = try JSON(data: responseData)
+                print("Profile JSON: ",profileJSON)
             }catch {
                 print("Error: cannot create JSON from todo")
                 return
@@ -72,12 +66,12 @@ class CloudantRESTCall {
             completionHandler(profileJSON)
         }
         task.resume()
-      
+        
     }
     
     
     func updatePersonData(userData: JSON, completionHandler: @escaping (_ result: JSON) -> Void){
-        let urlString = Credentials.CLOUDANT_URL_CREATE.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)!
+        let urlString = CloudantRESTCall.CLOUDANT_DB_URL.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed)!
         guard let endpointURL: URL = URL(string: urlString) else {
             print("Error: cannot create URL")
             return
