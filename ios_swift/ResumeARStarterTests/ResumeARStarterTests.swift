@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ResumeARStarter
+//@testable import ResumeARStarter
 
 class ResumeARStarterTests: XCTestCase {
     
