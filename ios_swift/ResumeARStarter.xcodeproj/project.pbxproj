@@ -12,7 +12,6 @@
 		B460D4B61FA38E66004CB81F /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460D4B51FA38E66004CB81F /* Face.swift */; };
 		B460D4B81FA39981004CB81F /* CIImage+FaceDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460D4B71FA39981004CB81F /* CIImage+FaceDetection.swift */; };
 		B460D4BA1FA3A433004CB81F /* SCNVector3+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460D4B91FA3A433004CB81F /* SCNVector3+Distance.swift */; };
-		B460D4BE1FAA3C8F004CB81F /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460D4BD1FAA3C8F004CB81F /* Credentials.swift */; };
 		B479E7522059A3C300786B47 /* linkedin.png in Resources */ = {isa = PBXBuildFile; fileRef = B479E74F2059A3C200786B47 /* linkedin.png */; };
 		B479E7532059A3C300786B47 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B479E7502059A3C200786B47 /* facebook.png */; };
 		B479E7542059A3C300786B47 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = B479E7512059A3C200786B47 /* twitter.png */; };
@@ -80,7 +79,6 @@
 		B460D4B51FA38E66004CB81F /* Face.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
 		B460D4B71FA39981004CB81F /* CIImage+FaceDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+FaceDetection.swift"; sourceTree = "<group>"; };
 		B460D4B91FA3A433004CB81F /* SCNVector3+Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Distance.swift"; sourceTree = "<group>"; };
-		B460D4BD1FAA3C8F004CB81F /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		B479E74F2059A3C200786B47 /* linkedin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin.png; sourceTree = "<group>"; };
 		B479E7502059A3C200786B47 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		B479E7512059A3C200786B47 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
@@ -203,7 +201,6 @@
 				B460D4B51FA38E66004CB81F /* Face.swift */,
 				B460D4B71FA39981004CB81F /* CIImage+FaceDetection.swift */,
 				B460D4B91FA3A433004CB81F /* SCNVector3+Distance.swift */,
-				B460D4BD1FAA3C8F004CB81F /* Credentials.swift */,
 				B4B2E7951FCDDF4E006DDB9D /* SCNNode+Text.swift */,
 				B430E1221FE8448A00058C99 /* CloudantRESTCall.swift */,
 				B479E75D2064616800786B47 /* Constant.swift */,
@@ -543,7 +540,6 @@
 			files = (
 				B4BF23631FA2745D002906DD /* ViewController.swift in Sources */,
 				B460D4B61FA38E66004CB81F /* Face.swift in Sources */,
-				B460D4BE1FAA3C8F004CB81F /* Credentials.swift in Sources */,
 				B460D4B81FA39981004CB81F /* CIImage+FaceDetection.swift in Sources */,
 				B479E75E2064616800786B47 /* Constant.swift in Sources */,
 				B4BF235F1FA2745D002906DD /* AppDelegate.swift in Sources */,
